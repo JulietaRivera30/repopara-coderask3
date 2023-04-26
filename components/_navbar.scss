@@ -1,0 +1,32 @@
+
+
+.nav-item, li{
+    color: #191919;
+     background-color: rgb(255, 171, 223);
+ margin-top:  3%;
+
+    list-style-type: none;
+ }
+
+ 
+ 
+ 
+ .nav-link {
+    background-color: rgb(253, 197, 237);
+    color: #191919;
+    align-items: center;
+    transition: 0.3s;
+
+    
+}
+
+.nav-link:hover{
+    color: rgb(255, 255, 255);
+    border: 2px solid #191919;
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+
+
+

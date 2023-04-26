@@ -1,0 +1,52 @@
+
+/*MAIN CONTACTO */
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $nabvarColor;
+    padding: 10px;
+}
+
+.contacto div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+label{
+    color: aliceblue;
+    font-size: 24px;
+transition: 0.5s;
+}
+
+
+input{
+    width: 350px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+
+input:focus, textarea:focus {
+    background-color: #191919;
+   outline: none;
+}
+
+
+input:hover, textarea:hover {
+    background-color:  #191919;
+   width: 300px;
+}
+
+
+textarea{
+    width: 320px;
+    padding: 10px;
+    resize: none;
+}
+
+
